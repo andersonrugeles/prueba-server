@@ -1,0 +1,42 @@
+.container input{
+	border: 1px solid white;
+    border-radius: 20px;
+	border-color: black;
+}
+.container-general{
+	padding:0px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 50px 0px 0px 80px;
+}
+.container-form{
+	padding: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+
+}
+.col-table{
+	padding:40px;
+}
+.row{
+	display: flex;
+    justify-content: center;
+	margin-bottom: 20px;
+}
+.container h1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.btn2{
+	width: 100%;
+	border: 1px solid white;
+    background-color: black;
+    border-radius: 20px;
+	color: white;
+	height: 35px;
+}
+.btn2:hover{
+	background-color: rgba(27, 26, 26, 0.781);
+}
