@@ -41,7 +41,7 @@ app.use('/',require('./routes/api/editarUser'));
 app.use('/',require('./routes/api/eliminarUser'));
 
 
-
+app.get('/',(req,res)=>res.send("Servidor Montado"));
 
 
 // public - navegador puede acceder
