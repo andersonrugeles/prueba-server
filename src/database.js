@@ -2,7 +2,7 @@ const mysql=require('mysql');
 const {promisify}=require('util');
 const {database}= require('./keys');
 
-const pool = mysql.createPool(database);
+const pool = mysql.createConnection(database);
 pool.getConnection((err,connection)=>{
     if(err){
         if(err.code ==='PROTOCOL_CONNECTION_LOST'){
